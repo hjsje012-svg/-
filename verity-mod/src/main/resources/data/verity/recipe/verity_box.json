@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["PPP", "PSP", "PPP"],
+  "key": {
+    "P": { "item": "minecraft:paper" },
+    "S": { "item": "minecraft:slime_ball" }
+  },
+  "result": { "id": "verity:verity_box", "count": 1 }
+}
