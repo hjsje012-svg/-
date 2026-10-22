@@ -25,7 +25,7 @@ public class VerityBoxItem extends Item {
         if (!(world instanceof ServerWorld sw)) return ActionResult.SUCCESS;
 
         BlockPos pos = ctx.getBlockPos().offset(ctx.getSide());
-        VerityEntity v = VerityMod.VERITY.spawn(sw, pos, SpawnReason.SPAWN_ITEM_USE);
+        VerityEntity v = VerityMod.VERITY.spawn(sw, pos, SpawnReason.SPAWN_EGG);
         if (v == null) return ActionResult.FAIL;
 
         sw.spawnParticles(ParticleTypes.POOF, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
